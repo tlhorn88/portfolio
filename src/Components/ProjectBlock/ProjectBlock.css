@@ -1,0 +1,16 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    place-items: center;
+    padding: 40px;
+    /* background-color: rgb(44,47,24, 0.4); */
+    min-height: 80vh;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    place-items: center;
+}

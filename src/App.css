@@ -1,0 +1,9 @@
+body {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    background-color: #262213;
+    background-image: url('./Images/engin-akyurt-Hlkuojv_P6I-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}

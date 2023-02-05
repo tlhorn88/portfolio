@@ -1,0 +1,18 @@
+.card {
+    color: #fdfcfc;
+    min-width: 20rem;
+    min-height: 20rem;
+    border-radius: 5px;
+    opacity: 1;
+    z-index: 4;
+    margin-top: 5rem;
+    margin: 5rem;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.title {
+    /* background-color: rgb(32, 35, 38); */
+    font-size: 3rem;
+    text-shadow: rgb(40, 38, 32) 1px 0 20px;
+}

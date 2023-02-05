@@ -1,0 +1,7 @@
+.footer {
+    /* background-color: rgb(44,47,24, 0.4); */
+    min-height: 10vh;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
