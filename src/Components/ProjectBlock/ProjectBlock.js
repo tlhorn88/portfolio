@@ -15,10 +15,11 @@ const ProjectBlock = () => {
         },
         {
             id: 2,
-            title: "Project 2",
+            title: "PDA Display",
             content: "This is content for B",
             photo: require('../../Images/cow2.jpg'),
-            color: 'red'
+            color: 'red',
+            link: 'https://griderpdas.netlify.app'
         },
         {
             id: 3,
@@ -81,6 +82,7 @@ const ProjectBlock = () => {
                         content={cow.content} 
                         photo={cow.photo}
                         color={cow.color}
+                        link={cow.link}
                     />
                 ))}
             </ul>
