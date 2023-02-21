@@ -7,37 +7,46 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 const ProjectBlock = () => {
     const info = [
         {
-            id: 1,
-            title: "Animals",
-            content: "Displays a random animal svg from an array on button click.  On clicking animal image, associated heart increases in size.",
-            photo: require('../../Images/cow1.jpg'),
-            color: 'orange'
-        },
-        {
-            id: 2,
-            title: "PDA Display",
-            content: "This is content for B",
-            photo: require('../../Images/cow2.jpg'),
-            color: 'red',
-            link: 'https://griderpdas.netlify.app'
-        },
-        {
-            id: 3,
-            title: "Project 3",
-            content: "This is content for C",
-            photo: require('../../Images/cow3.jpg'),
-        },
-        {
             id: 4,
             title: "Project 4",
             content: "This is content for D",
             photo: require('../../Images/cow4.jpg'),
+            link: 'https://apiimagesearch.netlify.app',
+            tech: 'React, HTML, CSS'
+        },
+        {
+            id: 1,
+            title: "Animals",
+            content: "Displays a random animal svg from an array on button click.  On clicking animal image, associated heart increases in size.",
+            photo: require('../../Images/cow1.jpg'),
+            color: 'orange',
+            link: 'https://grideranimals.netlify.app',
+            tech: 'React, HTML, CSS'
+        },
+        {
+            id: 3,
+            title: "User Manual Book Club",
+            content: "This is content for C",
+            photo: require('../../Images/cow3.jpg'),
+            link: 'https://usermanualbookclub.netlify.app',
+            tech: 'HTML, CSS'
+        },
+        {
+            id: 2,
+            title: "PDA Display",
+            content: "Basic application of props in React",
+            photo: require('../../Images/cow2.jpg'),
+            color: 'red',
+            link: 'https://griderpdas.netlify.app',
+            tech: 'React, HTML, CSS'
         },
         {
             id: 5,
             title: "Project 5",
             content: "This is content for E",
             photo: require('../../Images/cow5.jpg'),
+            link: '',
+            tech: 'HTML, CSS'
         },
         {
             id: 6,
@@ -83,6 +92,7 @@ const ProjectBlock = () => {
                         photo={cow.photo}
                         color={cow.color}
                         link={cow.link}
+                        tech={cow.tech}
                     />
                 ))}
             </ul>
