@@ -1,9 +1,42 @@
 body {
-    background-color: #000;
     width: 100%;
     height: 100%;
-    background-color: #262213;
-    background-image: url('./Images/engin-akyurt-Hlkuojv_P6I-unsplash.jpg');
-    background-size: cover;
-    background-attachment: fixed;
+    /* background-image: url('./Images/engin-akyurt-Hlkuojv_P6I-unsplash.jpg'); */
+    /* background-size: cover;
+    background-attachment: fixed; */
+}
+
+.content {
+    margin-top: 15px;
+}
+
+body {
+    text-align: center;
+    color: var(--color2);
+}
+
+/* .color1 {
+    #EE4E34
+    #FCEDDA
+} */
+
+button {
+        background-color: var(--color2); /* Green */
+        border: none;
+        color: var(--color1);
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border: solid 2px var(--color2);
+}
+
+button:hover {
+    background-color: var(--color1);
+    border: solid 2px var(--color2);
+    color: var(--color2);
 }

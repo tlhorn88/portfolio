@@ -1,13 +1,16 @@
-body {
-    text-align: center;
-    color: #fff;
-}
+
 
 .about {
-    /* background-color: rgb(44,47,24, 0.4); */
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
-h4 {
-    font-size: 3rem;
+.about p {
+    font-family: var(--font2);
 }
+
+.about-block {
+    width: 75%;
+    margin: auto;
+    text-align: justify;
+}
+

@@ -1,0 +1,22 @@
+.blurb {
+    margin: auto;
+    text-align: center;
+    font-size: 3rem;
+    padding: 5rem;
+    padding-top: 10%;
+    text-shadow: var(--color1) 1px 0 20px;
+    font-family: var(--font1);
+    /* font-style: italic; */
+    font-weight: 600;
+}
+
+.seeMyWork {
+    font-size: 1rem;
+    font-family: var(--font2);    
+}
+
+.seeMyWork:hover {
+        text-transform: 
+        uppercase;
+        font-family: var(--font1);
+    }

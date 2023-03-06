@@ -1,3 +1,21 @@
-/* .contact {
-    background-color: rgb(44,47,24, 0.4);
-} */
+.contact button {
+    background-color: var(--color1);
+    border: none;
+    color: var(--color2);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: solid 2px var(--color1);
+    /* max-width: 45%; */
+}
+
+.contact button:hover {
+background-color: var(--color2);
+border: solid 2px var(--color1);
+color: var(--color1);
+}

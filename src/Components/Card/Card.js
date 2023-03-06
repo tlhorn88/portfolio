@@ -13,24 +13,21 @@ const Card = (props) => {
         <div>
             <Router>
                 <Link to={props.link} target="_blank">
-                    <div 
-                        className="card"
-                        style={{
-                            backgroundImage:`url(${props.photo})`,
-                            backgroundSize: 'cover'
-                    }}>
-                        <p className="technologyUsed">
-                            {props.tech}
-                        </p>
-                        <h1 className="title">
-                            {props.title}
-                        </h1>
+                    <div className="card">
+                        <img 
+                            src={props.photo}
+                        />
+                        <h2>{props.title}</h2>
+                        <div class="img__description_layer">
                         <p className="content">
                             {props.content}
                         </p>
+                        <h5>{props.tech}</h5> 
+                        </div>    
                     </div>
                 </Link>
             </Router>
+            
         </div>
         
     )
